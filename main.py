@@ -1,4 +1,4 @@
-from first_package.first import A
+from data.first import A
 
 a = A()
 print(a.a)
