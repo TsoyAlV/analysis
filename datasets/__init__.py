@@ -8,6 +8,10 @@ base_url = 'https://cloud-api.yandex.net/v1/disk/public/resources/download?'
 
 
 def T1_obr():
+    """
+    Функция возвращает датафрейм "df"
+    python версия >= 3.10
+    """
     public_key = 'https://disk.yandex.lt/d/UdHX5-LHLd17tQ'  # Сюда вписываете вашу ссылку
     # Получаем загрузочную ссылку
     final_url = base_url + urlencode(dict(public_key=public_key))
